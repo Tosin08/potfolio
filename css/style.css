@@ -129,7 +129,7 @@ hr{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px;
-    margin-left: 270px;
+    margin-left: 150px;
 }
 .contain .container .card{
     position: relative;
@@ -232,6 +232,9 @@ background: #ff0057;
     max-width: 300px;
     flex-direction: column;
     height: auto;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
 }
 .contain .container .card .imgbx{
     position: relative;
