@@ -152,7 +152,6 @@ hr{
     text-align: center;
     padding: 20px;
     line-height: 2;
-    width: 900px;
 }
 
 .sections .columned .my-bio{
@@ -287,6 +286,7 @@ background: #ff0057;
 }
 .contain .container .card .imgbx{
     position: relative;
+    
 }
 .contain .container .card .imgbx,
 .contain .container .card:hover .imgbx{
@@ -359,11 +359,9 @@ max-width: 100px;
 
 .startup .container{
     width: 100%;
-    padding: 50px;
 }
 .startup .container .columns{
-    padding: 20px;
-    padding-top: 80px;
+    padding-top: 50px;
     color: #fff;
     justify-content: center;
     align-content: center;
@@ -371,7 +369,8 @@ max-width: 100px;
     background-image: url(https://images.unsplash.com/photo-1518534135864-c8fccda20aaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 320px;
+    height: 300px;
+    border-radius: 40px;
 }
 
 .startup .container .title{
@@ -380,7 +379,7 @@ max-width: 100px;
     text-align: center;
     font-weight: 600;
     font-size: 28px;
-    padding: 5px;
+    padding: 9px;
     color: rgba(123, 69, 148, 0.877);
     text-transform: capitalize;
 }
@@ -405,7 +404,7 @@ max-width: 100px;
  justify-content: center;
  align-self: center;
  text-align: center; 
- padding-top: 50px;  
+ padding-top: 5px;  
  color: rgba(30, 84, 155, 0.795);
  
 }
@@ -478,19 +477,21 @@ footer .container .columns{
     justify-content: center;
     align-self: center;
     text-align: center;
+    
     }
 footer .container .title{
     color: rgba(22, 75, 155, 0.884);
     font-size: 20px;
     font-weight: 600;
+    padding: 15px;
 }
 
 footer .social-icons{
   display: flex; 
   justify-content: center;
-    align-self: center;
-    text-align: center;
-    margin: 10px;
+  align-self: center;
+  text-align: center;
+  margin: 10px;
 }
 footer .social-icons .button{
 color: rgb(88, 67, 145); 
@@ -510,5 +511,5 @@ footer .social-icons a {
     background-image: url(https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 750px;
 }
