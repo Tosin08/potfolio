@@ -1,175 +1,157 @@
 body{
     margin: 0;
     padding: 0;
-   font-family: Arial, Helvetica, sans-serif;
-   background-color: #9eb3d3;
+   font-family: Arial, Helvetica, sans-serif;  
+   color: #050A30;
+  background-color: #faf2dc;
 }
 a{
     color: rgb(31, 29, 48);
 }
-.height-100{
-    height: 100px !important;
-  }
-  
-  .height-300 {
-    height: 300px !important;
-  }
-  
-  .height-500 {
-      height: 500px !important;
-  }
-  
-  .height-600 {
-      height: 600px !important;
-  }
-  
-  .height-700 {
-      height: 700px !important;
-  }
-  
-  .height-800 {
-      height: 800px !important;
-  }
-
-.section_padding_100 {
-    padding: 50px 0;
-  }
-
-.section_padding_100_0 {
-    padding: 100px 0 0;
-  }
-  
-.section_padding_0_100 {
-    padding: 0 0 100px;
+.heading .thumbnail{
+    justify-self: center;
+    align-items: center;
+    border-radius:"50%" ;
+    max-width: 300px; 
+    max-height: 300px;
+    padding: 20px;  
 }
-  
+
 
 hr{
     border-top: 1px solid #cccc;
     border-bottom: 1px solid #cccc;
 }  
 
-/*Contact  area  here*/
-.contact_area {
-    padding: 100px;
-    justify-content: center;
-    align-self: center;
-    margin-left: 500px;
+.heading .container{
+    justify-items: center;
+    align-content: center;
 }
-.contact_area .container{
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
+.heading .container .title{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
     padding: 20px;
 }
-.contact_area .container .card{
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #fff;
-    color: #414f7e;
-    display: flex;
-    width: 50%;
-    border: 1px solid;
-    padding: 30px;
-}
-.contact_area .container .card .content h3{
-    margin-bottom: 10px;
-    font-size: 25px;
-    font-weight:600;
-    align-self: center;
-    padding: 10px;
-}
-
-
-.contact_area .container .card .content{
-    
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.contact_area .container .card .content p{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 17px;
-    text-transform: capitalize;
-}
-/*Contact  area  here*/
+ 
 
 /* main area*/
 .hero .container{
-    margin-top: 40px;
+    margin-top: 15px;
     border: none;
     justify-content: center;
-    align-self: center;
+    text-align: center;
     width: 100%;
+    background-color: #88B2CC;
+    color: white;
+    padding: 3%;
+    
+    border-radius: 10px;
 }
-.hero .columns{
+.hero .container.columns{
     justify-content: center;
     align-self: center;
     text-align: center;
-    padding: 30px;
+    font-size: 20px;
+}
+.hero .container .bio{
+    font-size: 35px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
 }
 
 .hero .column{
     justify-content: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
 }
+/* main area*/
 
-.hero .title{
-    font-size:32px;
-    text-transform: capitalize;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-
-.hero .thumbnail{
-    align-self: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 40px;
-    max-width: 300px;
-    width: 100%;
-    max-height: 300px;
-    height: 100%;
-}
-
-
-.sections .container {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    background-color: rgba(115, 85, 163, 0.904);  border-radius: 10px;
-    color: rgb(255, 249, 249);
+/*previous project arae*/
+.past-works .container{
+    font-size: 19px;
     justify-content: center;
     align-self: center;
     text-align: center;
     padding: 20px;
-    line-height: 2;
+    margin: 30px;
+    background-color:#B1D4E0;
+    width: 100%;
+    color: rgb(48, 49, 49);
 }
-
-.sections .columned .my-bio{
-font-size: 28px;
-}
-
-.sections .columned .epic{
-    font-size: 16px;
-    margin-top: 20px;
-    padding: 30px;
-}
-.sections .columned .epic strong{
+ 
+.past-works .container > h1{
     text-transform: uppercase;
-  
+    font-size: 30px;
+    font-weight: 600;
+    padding: 27px;
+    color: #fff;
+   
 }
-/* main area*/
+.past-works .title{
+     text-align: center;
+     justify-content: center;
+     align-self: center;
+     font-size: 17px;
+     padding-bottom: 10px;
 
-/*subsect arae*/
+}
+
+.past-works .title a{
+    color: #734ef8;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.past-works .container .project-grid{
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+.past-works .container .project-grid .card{
+    border-radius: 30px;
+}
+
+
+/*previous project arae*/
+
+
+/*Startup area*/
+.startup .container .columns{
+    padding-top: 50px;
+    color: rgb(122, 118, 118);
+    background-color: #B1D4E0;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.startup .container .title{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 9px;
+    color: rgba(123, 69, 148, 0.877);
+    text-transform: capitalize;
+}
+
+.startup .container .subtitle{
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Startup area*/
+
+/*card arae*/
 .contain .container{
     position: relative;
     width: 1000px;
@@ -195,7 +177,7 @@ font-size: 28px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(88, 55, 107);
+    background:#658EA9;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -211,7 +193,7 @@ height: 150px;
 left: -75px;
 top: cal(50% - 75px);
 transition: 0.5s ease-in-out;
-background: #ff0057;
+background:#E98973;
 }
 
 .contain .container .card .imgbx:before{
@@ -228,13 +210,13 @@ background: #ff0057;
     font-weight: 600;
 }
 .contain .container .card .imgbx img{
-    max-height: 150px;
+    max-height: 200px;
     max-width: 300px;
     transition: 0.5s ease-in-out;
 }
 .contain .container .card:hover .imgbx img{
-    max-width: 70px;
-    max-height: 60px;
+    max-width: 90px;
+    max-height: 70px;
 }
 .contain .container .card .content{
     position: absolute;
@@ -304,212 +286,37 @@ max-width: 100px;
     width: 100%;
 }
 
-}
-/*subsect arae*/
+/*Contact arae*/
 
-/*previous project arae*/
-.past-works .container{
-    font-size: 25px;
+.icons{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+}
+.icons h1{
+    text-align: center;
     justify-content: center;
     align-self: center;
-    text-align: center;
-    padding-top: 5px;
-    padding: 20px;
-    margin-bottom: 50px;
-    background-color: rgba(164, 168, 223, 0.815);
-    width: 100%;
-    color: rgb(189, 221, 236);
-}
- 
-.past-works .container > h1{
-    text-transform: uppercase;
-    font-size: 28px;
-    font-weight: 600;
-    padding: 27px;
-    color: #fff;
-    text-decoration: underline ;
-}
-.past-works .title{
-     text-align: center;
-     justify-content: center;
-     align-self: center;
-     font-size: 17px;
-     padding-bottom: 10px;
-}
-
-.past-works .title a{
-    color: #734ef8;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-.past-works .project-grid .column{
-     display: flex;
-     justify-content: center;
-     align-self: center;
-     padding: 25px;
-}
-.thumbnail{
-    width: 100%;
-    height: 100%;
-}
-/*previous project arae*/
-
-/*motivation area*/
-
-.startup .container{
-    width: 100%;
-}
-.startup .container .columns{
-    padding-top: 50px;
-    color: #fff;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1518534135864-c8fccda20aaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-    border-radius: 40px;
-}
-
-.startup .container .title{
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    font-weight: 600;
-    font-size: 28px;
-    padding: 9px;
-    color: rgba(123, 69, 148, 0.877);
+    padding: 10px;
     text-transform: capitalize;
 }
-
-.startup .container .subtitle{
-    padding: 10px;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    font-size: 18px;
-    padding: 15px;
-}
-
-/*motivation area*/
-
-
-
-/*collobration area*/
-
-
-.future .column{
- justify-content: center;
- align-self: center;
- text-align: center; 
- padding-top: 5px;  
- color: rgba(30, 84, 155, 0.795);
- 
-}
-
-.future .column .title{
-    padding: 20px;
-     font-size: 25px;
-     font-weight: 600;
-}
-
-.future .column .subtitle{
-     font-size: 17px;
-     padding: 5px;
-}
-.future .column .subtitle .button{
-    text-decoration: none;
-    color: #777a7a;
-}
-
-/*collobration area*/
-
-/*future collobration starts here*/
-
-.section .container{
-    margin-top: 50px;
-    color: white;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    background-color: rgba(141, 91, 175, 0.911);
-    border-radius: 50px;
-    padding: 20px;
-}
-.section .container .box{
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     padding: 20px;
-}
-.section .container .column{
-padding: 5px;
-
-}
-
- .section .container .column .title{
-     font-size: 25px;
-     font-weight: 600; 
-     padding: 5px; 
- }
- .section .container .column p{
-     font-size: 18px;
- }
- .section .container .column a{
-     color: rgb(31, 29, 48);
-   
-     
- }
-
-/*future collobration ends here*/
+/*contact area*/
 
  /*footer area stats here*/
 footer .container{
     justify-content: center;
     align-self: center;
     text-align: center;
-    padding-top: 60px;
+    padding: 20px;
     }
 
-footer .container .columns{
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    
-    }
 footer .container .title{
     color: rgba(22, 75, 155, 0.884);
     font-size: 20px;
     font-weight: 600;
-    padding: 15px;
 }
 
-footer .social-icons{
-  display: flex; 
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  margin: 10px;
-}
-footer .social-icons .button{
-color: rgb(88, 67, 145); 
-text-decoration: none; 
-
-}
-footer .social-icons a {
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-  }
 /*footer area end here*/
 
 
-.everything{
-    background-image: url(https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 750px;
-}
