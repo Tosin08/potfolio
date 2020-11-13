@@ -114,8 +114,6 @@ text-align: center;
 .past-works .container .project-grid .card{
     border-radius: 30px;
 }
-
-
 /*previous project arae*/
 
 
@@ -287,46 +285,16 @@ max-width: 100px;
     width: 100%;
 }
 
-/*Contact arae*/
-.icons {
-height: 100%;
-    align-content: center;
-    justify-content: center;
+
+.label-row-overview{
     text-align: center;
-    margin-left: 600px;
 }
 
-.icons .container{
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    
+.label-row-overview a {
+  color: #FFF;
+  background-color: #12a19b;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 5px;
+  overflow: hidden;
 }
-.icons .container h1{
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    padding: 10px;
-    text-transform: capitalize;
-}
-/*contact area*/
-
- /*footer area stats here*/
-
-
-h1 .title{
-    color: rgba(22, 75, 155, 0.884);
-    font-size: 20px;
-    font-weight: 600;
-}
-/*footer area end here*/
-
-<!--Contact Area -->
-<div class="icons">
-  <div class="container">
-    <h1>Contact Me</h1>
-    <a href="https://github.com/Tosin08" >Github</a>
-    <a href="https://twitter.com/tosinalo" >Twitter</a>
-    <a href="https://www.linkedin.com/in/alo-oluwatosin-1414231b0/">Linkedin</a>
-  </div>
-</div>
