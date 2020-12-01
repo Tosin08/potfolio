@@ -155,14 +155,21 @@ color: #1B4332;
 
 /*Startup area*/
 .startup .container {
-    padding-top: 50px;
     color: #1B4332;
     background-color: #ffffff;
     justify-content: center;
     align-content: center;
     text-align: center;
-    height: 200px;
+    padding: 20px;
     border-radius: 40px;
+    width: 100%;
+}
+
+.startup .container.columns{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 420PX;
 }
 
 .startup .container .title{
@@ -171,17 +178,17 @@ color: #1B4332;
     text-align: center;
     font-weight: 600;
     font-size: 30px;
-    padding: 9px;
+    padding: 5px;
     color: #74C69D;
     text-transform: capitalize;
 }
 
 .startup .container .subtitle{
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     align-self: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /*Startup area*/
@@ -239,10 +246,6 @@ background:#B7E4C7;
     width: 100%;
     height: 100%;
     text-align: center;
-    font-style: 6em;
-    font-size: 20px;
-    color: #ffff;
-    font-weight: 600;
 }
 .contain .container .card .imgbx img{
     max-height: 200px;
@@ -250,8 +253,8 @@ background:#B7E4C7;
     transition: 0.5s ease-in-out;
 }
 .contain .container .card:hover .imgbx img{
-    max-width: 90px;
-    max-height: 70px;
+    max-width: 100px;
+    max-height: 120px;
 }
 .contain .container .card .content{
     position: absolute;
@@ -265,7 +268,7 @@ background:#B7E4C7;
     align-items: center;
 }
 .contain .container .card .content h2{
-   margin-bottom: 1px;
+   margin-bottom: 10px;
    font-size: 20px;
    font-weight:600;
    align-self: center;
